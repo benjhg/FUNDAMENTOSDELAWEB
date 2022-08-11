@@ -1,0 +1,17 @@
+
+label, input {
+    display: inline;
+}
+h1, h2 {
+    display: block;
+    background-color: cyan;
+}
+p {
+    display: inline-block;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color:sandybrown;
+    margin: 10px;
+    vertical-align:top;
+  }

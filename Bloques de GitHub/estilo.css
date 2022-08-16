@@ -1,7 +1,5 @@
-.margin{
-    width: 2000px;
-    height:900px;
-    background-color: rgb(221, 221, 221);
+body{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 0, 0));
 }
 #bloque-1 {
     width: 1900px;

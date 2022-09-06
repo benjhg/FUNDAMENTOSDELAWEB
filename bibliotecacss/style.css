@@ -16,7 +16,7 @@
     margin-left: 70px;
     margin-right: 50px;
 }
-.button-2{
+.btn-2{
     background-color: rgb(0, 255, 162);
     color:white;
     padding: 20px;
@@ -27,7 +27,7 @@
     border: 0px solid aqua;
     border-radius: 50%;
 }
-.button-3{
+.btn-3{
 font-family: sans-serif;
     background-color: rgb(35, 46, 248);
     color:white;

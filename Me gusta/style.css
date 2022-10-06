@@ -1,0 +1,95 @@
+.btn{
+    padding: 4px 8px;
+    margin: 4px 8px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px black;
+    cursor: pointer;
+}
+.navbar{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: -17px;
+    background-color: #000000;
+}
+
+.navbar-elements{
+    padding: 5px 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-nav{
+    margin-left: 30px;
+    font-size: 2rem;
+    color: white;
+    font-family: cursive;
+}
+#titulo-principal{
+    font-family: cursive;
+    text-align: center;
+}
+.main{
+    width: 700px;
+    display: flex;
+    margin: -300px 10px 10px 700px;
+    padding: 10px;
+}
+.col-1{
+    flex: 70%;
+}
+
+.card{
+    margin: 10px 20px;
+    border: 3px solid gray;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+}
+.like-elements{
+    list-style-type: none;
+    width: 150px;
+    margin: 5px 10px;
+    padding: 5px;
+    text-align: center;
+}
+.container-1 {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col-2 {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 3px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    height: 250px;
+    width: 190px;
+    padding: 20px;
+    text-align: center; 
+
+}
+.icon-s {
+    height: 90px;
+    display: block;
+    margin-left: 45px;
+    margin-bottom: 30px;
+   
+}
+
+a {
+    color: #3c00ff;
+}

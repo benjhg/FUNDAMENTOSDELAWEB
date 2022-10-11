@@ -54,6 +54,17 @@ body {
 .col-2 {
     flex: 1;
 }
+.btn{
+height: 35px;
+width: 100px;
+background-color: #ffee00;
+color: #000000;
+border: none;
+font-size: 25px;
+box-shadow: 10px 10px #000000;
+font-family: cursive;
+margin-top: -100px;
+}
 
 .flex-container {
     width: 1000px;
@@ -71,7 +82,11 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     overflow: hidden;
-    
+
+}
+
+.items-card{
+   align-items: center;
 }
 
 .card-header {

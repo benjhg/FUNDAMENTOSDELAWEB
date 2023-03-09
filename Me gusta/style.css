@@ -1,7 +1,11 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(156, 156, 156);
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(182, 182, 182);
+}
+
+.tamacont{
+    width: 45em;
 }
 .row {
     display: flex;
@@ -16,35 +20,20 @@ body{
 .col {
     flex:.9;
     padding: 20px;
-    margin: 10px;
-    background-color: rgb(255, 0, 191);
+    margin: 10px; 
 
 }  
-
-.nav {
-    height: 3em;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    margin-left: 28em;
-    
-}
-
-.col-3{
-    flex: .3;
-    padding: 20px;
-    margin: 10px;
-    background-color: rgb(255, 225, 0);
-}
 
 .col-4 {
     flex: 3;
     padding: 20px;
     margin: 10px;
-    background-color: palegreen;
 }
 .container{
     padding: 0px 10px 1px 10px;
-    margin: 0px 300px 10px 300px;
+    margin: 3em 300px 10px 300px;
+    border:#000000 solid 1px;
+
 }
 
 .tama{
@@ -58,4 +47,28 @@ body{
 
 .tama3{
     height: 10em;
+}
+
+.likes{
+    display: flex;
+
+}
+
+.tama4{
+font-size: 2em;
+}
+
+.txt1{
+    font-size: 2em;
+}
+
+
+.boton{
+    height: 1em;
+    width: 3em;
+    background-color: #ffee00;
+    color: #000000;
+    border: none;
+    font-size: 25px;
+    box-shadow: 10px 10px #000000;
 }
